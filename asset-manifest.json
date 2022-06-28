@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/gwclimited/static/css/main.eeab99f6.css",
+    "main.js": "/gwclimited/static/js/main.9e9fb122.js",
+    "static/media/3d.jpg": "/gwclimited/static/media/3d.f93f2edc389b1bcfa0e0.jpg",
+    "static/media/ireland.jpg": "/gwclimited/static/media/ireland.5997ec60c0ddfb5cc57f.jpg",
+    "static/media/visual.jpg": "/gwclimited/static/media/visual.fb4c01015cd9ecfaa590.jpg",
+    "static/media/russia.jpg": "/gwclimited/static/media/russia.8983692bf44910d953f4.jpg",
+    "static/media/motion.jpg": "/gwclimited/static/media/motion.810f1509774647584cea.jpg",
+    "static/media/uk.jpg": "/gwclimited/static/media/uk.f9a7807d2e33107990f5.jpg",
+    "static/media/graphics.jpg": "/gwclimited/static/media/graphics.4d4d98fb6a7d164091e9.jpg",
+    "static/media/poland.jpg": "/gwclimited/static/media/poland.86b18527806f680adc34.jpg",
+    "static/media/ux.jpg": "/gwclimited/static/media/ux.25d3e002682b7cad0b69.jpg",
+    "static/media/video.jpg": "/gwclimited/static/media/video.95f08e6a634c7006c3c2.jpg",
+    "static/media/ukbg.jpeg": "/gwclimited/static/media/ukbg.5e4f9d738c056f056cb6.jpeg",
+    "static/media/prototype.jpg": "/gwclimited/static/media/prototype.c6efb78b5fec0aa6a9c8.jpg",
+    "static/media/seo.jpg": "/gwclimited/static/media/seo.3d9e6d39905e4bb5eef8.jpg",
+    "static/media/russiabg.jpeg": "/gwclimited/static/media/russiabg.cf1a29a58f6c18927bd0.jpeg",
+    "static/media/germanybg.jpeg": "/gwclimited/static/media/germanybg.45cd9e9cce5d542c6acf.jpeg",
+    "static/media/irelandbg.jpeg": "/gwclimited/static/media/irelandbg.a32775084ae99b830e3b.jpeg",
+    "static/media/polandbg.jpeg": "/gwclimited/static/media/polandbg.94480d11a20d70d1119a.jpeg",
+    "static/media/cyprusbg.jpeg": "/gwclimited/static/media/cyprusbg.fb4762cc02e44809e08f.jpeg",
+    "static/media/pic2.jpeg": "/gwclimited/static/media/pic2.123cac94dc24affce3db.jpeg",
+    "static/media/cyprus.jpeg": "/gwclimited/static/media/cyprus.11568721cb2839a559b8.jpeg",
+    "static/media/germany.jpeg": "/gwclimited/static/media/germany.cfeda5994d167c95847c.jpeg",
+    "static/media/phone.svg": "/gwclimited/static/media/phone.41aab5d0f7637e98338d9f9aa7d04972.svg",
+    "static/media/home.svg": "/gwclimited/static/media/home.3b70c47e5d382b157005990fcd5e0a7d.svg",
+    "static/media/email.svg": "/gwclimited/static/media/email.ca4ac6a6f3469a823c9f432facd18726.svg",
+    "index.html": "/gwclimited/index.html",
+    "main.eeab99f6.css.map": "/gwclimited/static/css/main.eeab99f6.css.map",
+    "main.9e9fb122.js.map": "/gwclimited/static/js/main.9e9fb122.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eeab99f6.css",
+    "static/js/main.9e9fb122.js"
+  ]
+}
