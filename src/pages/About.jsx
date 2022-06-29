@@ -103,11 +103,11 @@ const About = () => {
    
         </div>
         </div>
-        <div className="px-6">
+        <div className="px-6 lg:text-lg  text-base">
         <p>Now your visa's filed you will need to start making preparations for living abroad, including booking accommodation. GWC staff can assist you throughout and will hold pre-departure briefings for students.</p>
             
         <p className="pt-4">As an international student you will need to make sure you successfully apply for a visa before you move abroad to study. Each study destination will have its own requirements and each visa will carry its own rules and restrictions.</p>
-        <p className="pt-4">GWC has expert staff in all of our offices to guide you through the whole process, whether you choose to study in the UK, US or the UAE or elsewhere. The process can be complicated and universities often encourage international students to seek professional guidance before and during the visa application stage</p>
+        <p className="pt-4">GWC has expert staff in all of our offices to guide you through the whole process, whether you choose to study in the UK, US or the UAE or elsewhere. The process can be complicated and universities often encourage international students to seek professional guidance before and during the visa application stage.</p>
     </div>
         <div className="w-full pt-10">
             <div>
