@@ -56,7 +56,7 @@ const media = [
 const Services = () => {
 
   return (
-    <div className='p-10  rounded-lg lg:mx-10' id='services'>
+    <div className='p-10 rounded-lg lg:mx-10 h-auto' id='services'>
        <span className="flex flex-col gap-2 items-center">
                 <h2 className="text-center font-bold text-2xl lg:text-3xl uppercase">services</h2>
                 <div className="w-40 h-2 bg-black rounded-full lg:w-44" data-aos="fade-up"></div>
