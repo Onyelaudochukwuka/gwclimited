@@ -5,7 +5,7 @@ import home from './img/home.svg';
 
 const Contact = () => {
   return (
-    <div className='px-10 py-20 mt-20 bg-[#e2e2e2]' id='contact'>
+    <div className='px-10 py-20  bg-[#e2e2e2]' id='contact'>
       <span className="flex flex-col gap-2 items-center">
           <h2 className="text-center font-bold text-2xl lg:text-3xl uppercase" >Contact</h2>
           <div className="w-40 h-2 bg-black rounded-full lg:w-44 mb-10" data-aos="fade-up"></div>
