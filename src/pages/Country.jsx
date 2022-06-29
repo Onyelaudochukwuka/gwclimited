@@ -1,7 +1,6 @@
 import React, { useState,useEffect } from 'react'
 import { useParams } from 'react-router-dom/index';
 import { country } from '../services';
-import { Navbar } from '../components';
 const Country = () => {
     const { countryId } = useParams();
     // eslint-disable-next-line no-unused-vars
