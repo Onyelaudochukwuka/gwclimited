@@ -38,11 +38,11 @@ const Navbar = ({home}) => {
             <Link to="/services"><span className='cursor-pointer hover:text-slate-300 z-30'><div onClick={() => setDropdown(false)}>Services</div></span></Link>
           <ul className='group-hover:h-fit flex flex-col lg:top-16 bg-slate-600 lg:absolute gap-4 h-0 overflow-y-hidden group-hover:py-3  transition-all ease-in duration-300 z-10'>
             <li>
-                <Link to="/services"><span className='m-6 hover:text-slate-300/30' onClick={() => setDropdown(false)}>Immigration Services</span></Link>
+                <Link to="/services"><span className='m-6 hover:text-slate-300/30 text-sm' onClick={() => setDropdown(false)}>Immigration Services</span></Link>
               </li>
               <li className='w-full h-2 bg-slate-300/30'></li>
               <li>
-                <Link to="/services"><span className='m-6 hover:text-slate-300/30' onClick={() => setDropdown(false)}>Multimedia Services</span></Link>              
+                <Link to="/services"><span className='m-6 hover:text-slate-300/30 text-sm' onClick={() => setDropdown(false)}>Multimedia Services</span></Link>              
             </li>
           </ul>
           </span>
