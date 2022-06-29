@@ -5,26 +5,26 @@ const data = [
     {
         
         no: '1',
-        title: "Application",
-        content: "Search for school of your chioce, apply online via email, phone, call or in person at our office"
+        title: "Appointment",
+        content: "Meeting with an experienced GWC counsellor will allow you to discuss your options and choose the right fit for you."
     },
     {
         
         no: '2',
-        title: "Documentation",
-        content: "Provide all necessary documents required"
+        title: "Application",
+        content: "Once you have decided on your university choice, your counsellor will ask you to provide the necessary documents to apply for admissions."
     },
     {
         
         no: '3',
-        title: "Visa Application",
-        content: "Once granted admission, we will guide you through out the visa application process, our success rate is highly impressive"
+        title: "Acceptance",
+        content: "An offer letter will be issued by the university if you have met the criteria for admissions. GWC will keep in regular contact with you and with your institution of choice."
     },
     {
         
         no: '4',
-        title: "Enrollment",
-        content: "We will provide support with logistics to make the enrollment process at your scholl of admsson easy"
+        title: "Visa Application",
+        content: "Our counsellors are trained to give you expert advice on the visa process. They will guide you on preparing your file and check your documents before they are submitted."
     }
 ];
 const Countries = [
@@ -100,9 +100,16 @@ const About = () => {
   )   
 }
     )}
+   
         </div>
         </div>
-        <div className="w-full">
+        <div className="px-6">
+        <p>Now your visa's filed you will need to start making preparations for living abroad, including booking accommodation. GWC staff can assist you throughout and will hold pre-departure briefings for students.</p>
+            
+        <p className="pt-4">As an international student you will need to make sure you successfully apply for a visa before you move abroad to study. Each study destination will have its own requirements and each visa will carry its own rules and restrictions.</p>
+        <p className="pt-4">GWC has expert staff in all of our offices to guide you through the whole process, whether you choose to study in the UK, US or the UAE or elsewhere. The process can be complicated and universities often encourage international students to seek professional guidance before and during the visa application stage</p>
+    </div>
+        <div className="w-full pt-10">
             <div>
                 <h2 className='text-center text-[#252F46] font-bold text-xl lg:text-2xl '>Our Countries</h2>
             </div>
