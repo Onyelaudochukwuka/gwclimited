@@ -2,7 +2,7 @@ import './styles/index.css';
 import { useEffect } from 'react';
 import { Footer, Navbar } from './components';
 import {Routes, Route} from 'react-router-dom/index';
-import { Homepage, Country, Contact, Services, About} from './pages'
+import { Homepage, Country, Contact, Services} from './pages'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -23,7 +23,7 @@ function App() {
     <Route path='/' element={<Homepage />} />
     <Route path='/country/:countryId' element={<Country />} />
     <Route path='/contact' element={<Contact />} />
-        <Route path='/contact' element={<Services />} />
+    <Route path='/services' element={<Services />} />
   </Routes>
       <Footer/>
       </>
