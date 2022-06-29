@@ -22,7 +22,6 @@ function App() {
   <Routes>
     <Route path='/' element={<Homepage />} />
     <Route path='/country/:countryId' element={<Country />} />
-    <Route path='/about' element={<About />} />
     <Route path='/contact' element={<Contact />} />
         <Route path='/contact' element={<Services />} />
   </Routes>
