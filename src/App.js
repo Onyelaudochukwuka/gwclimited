@@ -1,6 +1,6 @@
 import './styles/index.css';
 import { useEffect } from 'react';
-import { Footer } from './components';
+import { Footer, Navbar } from './components';
 import {Routes, Route} from 'react-router-dom/index';
 import { Homepage, Country, Contact, Services, About} from './pages'
 import Aos from 'aos';
@@ -16,7 +16,8 @@ function App() {
         Aos.refresh();
   },[])
   return (
-      <>
+    <>
+      <Navbar />
   <Routes>
     <Route path='/' element={<Homepage />} />
     <Route path='/country/:countryId' element={<Country />} />

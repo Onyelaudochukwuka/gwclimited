@@ -59,7 +59,6 @@ const Country = () => {
   }, [])
   return (
     <>
-      <Navbar home/>
       <div className='flex flex-col lg:p-24 p-6 gap-8'>
       {title && <h1 className='font-bold text-lg lg:text-xl text-center'>{title}</h1>}
       {image && <span className="w-3/4 h-auto mx-auto">{image}</span>}
