@@ -30,45 +30,26 @@ const Navbar = ({home}) => {
           <Link to="/"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={()=>setDropdown(false)}>Home</span></Link>
         </li>
         <li>
-          {!home ?
-            <a href="#about"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>About</span></a>
-            :
-            <Link to="/"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>About</span></Link>
-          }
+        
+          <Link to="/about"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>About</span></Link>
         </li>
         <li>
           <span className='transition-all duration-300 flex flex-col items-center group'> 
-            {!home ?
-            <a href="#services" className='cursor-pointer hover:text-slate-300 z-[50]'><div onClick={() => setDropdown(false)}>Services</div></a>
-              :
-            <Link to="/"><span className='cursor-pointer hover:text-slate-300 z-[50]'><div onClick={() => setDropdown(false)}>Services</div></span></Link>
-            }
+            <Link to="/services"><span className='cursor-pointer hover:text-slate-300 z-[50]'><div onClick={() => setDropdown(false)}>Services</div></span></Link>
             <div className="w-36 h-36 bg-transparent absolute lg:flex hidden"></div>
           <ul className='group-hover:h-fit flex flex-col lg:top-16 bg-slate-600 lg:absolute gap-4 h-0 overflow-y-hidden group-hover:py-3  transition-all ease-in duration-300 z-10'>
             <li>
-                {!home ?
-                  <a href="#immigrationService"><span className='m-6 hover:text-slate-300/30' onClick={() => setDropdown(false)}>Immigration Services</span></a>
-                  :
-                  <Link to="/"><span className='m-6 hover:text-slate-300/30' onClick={() => setDropdown(false)}>Immigration Services</span></Link>
-                }
+                <Link to="/services"><span className='m-6 hover:text-slate-300/30' onClick={() => setDropdown(false)}>Immigration Services</span></Link>
               </li>
               <li className='w-full h-2 bg-slate-300/30'></li>
               <li>
-                {!home ?
-                  <a href="#multimediaservice"><span className='m-6 hover:text-slate-300/30' onClick={() => setDropdown(false)}>Multimedia Services</span></a>
-                  :
-                  <Link to="/"><span className='m-6 hover:text-slate-300/30' onClick={() => setDropdown(false)}>Multimedia Services</span></Link>
-                }
+                <Link to="/services"><span className='m-6 hover:text-slate-300/30' onClick={() => setDropdown(false)}>Multimedia Services</span></Link>              
             </li>
           </ul>
           </span>
         </li>
         <li>
-          {!home ?
-            <a href="#contact"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>Contact</span></a>
-            :
-            <Link to="/"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>Contact</span></Link>
-          }
+          <Link to="/contact"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>Contact</span></Link>
         </li>
       </ul>
       {/* toggler */}

@@ -8,7 +8,7 @@ const country =
                         
         Location: "	Central Europe",
         
-        image: <img src={require("../components/img/germanybg.jpeg")} alt="Germany" className="w-full" />,
+        image: <img src={require("../pages/img/germanybg.jpeg")} alt="Germany" className="w-full" />,
 
         Currency: "Euro (€) = N438.40",
 
@@ -64,7 +64,7 @@ const country =
                         
         Location: "	Cyprus is an island located in the eastern Mediterranean Sea, south of turkey and south east of main land Greece",
 
-        image: <img src={require("../components/img/cyprusbg.jpeg")} alt="Cyprus" className="w-full" />,
+        image: <img src={require("../pages/img/cyprusbg.jpeg")} alt="Cyprus" className="w-full" />,
 
         Language: "Greek and Turkish",
 
@@ -113,7 +113,7 @@ const country =
         title: "Study In Poland",
         content: "Poland is one of the most affordable European countries for studies, a place where you can combine high-quality universities, very affordable tuition fees and a vibrant student and cultural life.Polish cities like Warsaw and Krakow are voted among the top student-friendly cities, offering a lively atmosphere, a great study environment and low cost of living.Poland is a central European country with quite a lot of neighbouring countries such as Lithuania, the Kaliningrad region, Belarus, Ukraine, Slovakia, Czech Republic and Germany, this grants the opportunity for to work and travel in multiple European destinations.",
         
-        image: <img src={require("../components/img/polandbg.jpeg")} alt="Poland" className="w-full" />,
+        image: <img src={require("../pages/img/polandbg.jpeg")} alt="Poland" className="w-full" />,
 
         Location: "	Central Europe",
 
@@ -168,7 +168,7 @@ const country =
         title: "Study In Ireland",
         content: "Ireland is one of the most popular study abroad destinations in Europe. Its universities offer first-rate education in a traditional, yet modern setting. Thousands of study programs at over two dozen schools attract international students from around the world.Ireland is such a good place to study abroad for a wide number of reasons, including the standard of teaching and education, the career opportunities, and the enjoyable lifestyle..",
                         
-        image: <img src={require("../components/img/irelandbg.jpeg")} alt="Ireland" className="w-full" />,
+        image: <img src={require("../pages/img/irelandbg.jpeg")} alt="Ireland" className="w-full" />,
 
         Location: "West of Great Britain",
 
@@ -229,7 +229,7 @@ const country =
                      
          Location: "Eastern Europe",
 
-          image: <img src={require("../components/img/russiabg.jpeg")} alt="Russia" className="w-full"/>,
+          image: <img src={require("../pages/img/russiabg.jpeg")} alt="Russia" className="w-full"/>,
 
          Currency:	"Ruble (RUB) = N7.73",
 
@@ -289,7 +289,7 @@ const country =
          content:".Hundreds of thousands of international students, study in the UK each year, giving the UK a consistently high ranking in popularity. With a diverse population and a reputation for prestigious schooling, the UK is a natural location for international students.The UK is a multicultural country and the second most popular destination for overseas students in the world. A degree from any British university will look great on a CV, and when looking for work in the future, no matter the industry and the location, having a qualification from the UK will be a great selling point.",
                      
          Location: "North-western coast of mainland Europe",
-          image: <img src={require("../components/img/ukbg.jpeg")} alt="United kingdoms" className="w-full" />,
+          image: <img src={require("../pages/img/ukbg.jpeg")} alt="United kingdoms" className="w-full" />,
 
          Currency:	"Pound sterling (GBP) = N 506.85",
 

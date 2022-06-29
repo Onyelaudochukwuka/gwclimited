@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hero.css';
+import '../components/Hero.css';
 
 const media = [
   {
