@@ -19,8 +19,8 @@ const Footer = () => {
           </p>
           </div>
         <div className='flex flex-col gap-8  lg:flex-row'>
-            <Link to='./'><span> <a href="#contact"> Contact Us</a></span></Link>
-            <Link to='./'><span>Terms of Service</span></Link>
+        <span  className="hover:text-slate-300"> <Link to="/contact"> Contact Us</Link></span>
+            <span className="hover:text-slate-300">Terms of Service</span>
       </div>
     
         <div className='flex pt-4 gap-6 w-fit items-center'>
