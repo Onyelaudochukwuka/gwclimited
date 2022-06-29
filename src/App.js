@@ -5,6 +5,7 @@ import {Routes, Route} from 'react-router-dom/index';
 import { Homepage, Country, Contact, Services, About} from './pages'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
