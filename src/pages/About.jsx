@@ -76,7 +76,7 @@ const About = () => {
                 <p className="pt-4">As a consultancy firm, we recruit only the best professionals to join our growing team of staff. we are dedicated in providing the best services to our esteem clients. our clients come from corporate bodies, public institutions, NGOs and the private sector throughout the world..</p>
             </div>
             <div className='lg:text-lg  text-base'>
-                <h2 className="font-semibold"><i>WHO WE DO</i></h2>
+                <h2 className="font-semibold"><i>WHAT WE DO</i></h2>
                 <p className="pt-4 ">We provide services in student recruitment, immigration and visas, multimedia production and training , business development/consultancy services.</p>
 
                 <p className="pt-4">We world round the clock to ensure customer satisfaction in our products and services.</p>
