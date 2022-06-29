@@ -1,7 +1,5 @@
 import React from 'react';
 import './Hero.css';
-import { Link } from 'react-router-dom';
-
  const Hero =() =>{
    return(
      <div className="flex flex-col  w-full justify-between lg:flex-row items-center bg-[url('./img/pic2.jpeg')] bg-[#252F46]/75  bg-no-repeat bg-blend-soft-light bg-cover bg-center h-screen">
