@@ -35,8 +35,7 @@ const Navbar = ({home}) => {
         </li>
         <li>
           <span className='transition-all duration-300 flex flex-col items-center group'> 
-            <Link to="/services"><span className='cursor-pointer hover:text-slate-300 z-[50]'><div onClick={() => setDropdown(false)}>Services</div></span></Link>
-            <div className="w-36 h-36 bg-transparent absolute lg:flex hidden"></div>
+            <Link to="/services"><span className='cursor-pointer hover:text-slate-300 z-30'><div onClick={() => setDropdown(false)}>Services</div></span></Link>
           <ul className='group-hover:h-fit flex flex-col lg:top-16 bg-slate-600 lg:absolute gap-4 h-0 overflow-y-hidden group-hover:py-3  transition-all ease-in duration-300 z-10'>
             <li>
                 <Link to="/services"><span className='m-6 hover:text-slate-300/30' onClick={() => setDropdown(false)}>Immigration Services</span></Link>
