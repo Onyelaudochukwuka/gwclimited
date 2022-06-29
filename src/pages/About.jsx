@@ -69,11 +69,21 @@ const About = () => {
                 <h2 className="text-center font-bold text-2xl lg:text-3xl uppercase">About Us</h2>
                 <div className="w-40 h-2 bg-black rounded-full lg:w-44" data-aos="fade-up"></div>
             </span>
-            <div className='text-center lg:text-lg font-semibold text-base'>
-                <p>We are a team of highly experienced professionals 
-                that makes the whole process seamless and achievable
-                Whether is study abroad or any of our other services,
-                we make sure you get value for your money.</p>
+            <div className='lg:text-lg  text-base'>
+                <h2 className="font-semibold"><i>WHO WE ARE</i></h2>
+                <p className="pt-4 ">Global-watch catalogue ltd (GWC) was established in 2012. We have offices in Lagos, Abuja and port Harcourt, our company has over 10 years experience in providing quality services to our clients where ever they are in the world.</p>
+
+                <p className="pt-4">As a consultancy firm, we recruit only the best professionals to join our growing team of staff. we are dedicated in providing the best services to our esteem clients. our clients come from corporate bodies, public institutions, NGOs and the private sector throughout the world..</p>
+            </div>
+            <div className='lg:text-lg  text-base'>
+                <h2 className="font-semibold"><i>WHO WE DO</i></h2>
+                <p className="pt-4 ">We provide services in student recruitment, immigration and visas, multimedia production and training , business development/consultancy services.</p>
+
+                <p className="pt-4">We world round the clock to ensure customer satisfaction in our products and services.</p>
+            </div>
+            <div className='lg:text-lg  text-base'>
+                <h2 className="font-semibold"><i>WHY CHOOSE US</i></h2>
+                <p className="pt-4 ">We are creative, innovative, reliable and trusted partner. Our company has been in the industry for more than a decade, this gives us the needed experience to handle complex projects and assignments.</p>
             </div>
         </div>
         <div className=' p-10 pb-20 rounded-lg'>
