@@ -48,7 +48,36 @@ const Navbar = ({home}) => {
           </span>
         </li>
         <li>
+          <span className='transition-all duration-300 flex flex-col items-center group'> 
+            <Link to="/services"><span className='cursor-pointer hover:text-slate-300 z-30'><div onClick={() => setDropdown(false)}>Media & News</div></span></Link>
+          <ul className='group-hover:h-fit flex flex-col lg:top-16 bg-slate-600 lg:absolute gap-4 h-0 overflow-y-hidden group-hover:py-3  transition-all ease-in duration-300 z-10'>
+            <li>
+                <Link to="/News"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>News</span></Link>
+              </li>
+              <li className='w-full h-2 bg-slate-300/30'></li>
+              <li>
+                <Link to="/"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>Study Abroad Promotion</span></Link>              
+            </li>
+            <li>
+                <Link to="/"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>Multimedia Promotion</span></Link>              
+            </li>
+            <li>
+                <Link to="/"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>Immigration/Visa Promotion</span></Link>              
+            </li>
+          </ul>
+          </span>
+        </li>
+        <li>
+          <Link to="/Consultancy"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>Consultancy</span></Link>
+        </li>
+        <li>
+          <Link to="/Team"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>Team</span></Link>
+        </li>
+        <li>
           <Link to="/contact"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>Contact</span></Link>
+        </li>
+        <li>
+          <Link to="/Faq"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>FAQ</span></Link>
         </li>
       </ul>
       {/* toggler */}
