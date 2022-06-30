@@ -58,9 +58,11 @@ const Navbar = ({home}) => {
               <li>
                 <Link to="/"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>Study Abroad Promotion</span></Link>              
             </li>
+            <li className='w-full h-2 bg-slate-300/30'></li>
             <li>
                 <Link to="/"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>Multimedia Promotion</span></Link>              
             </li>
+            <li className='w-full h-2 bg-slate-300/30'></li>
             <li>
                 <Link to="/"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>Immigration/Visa Promotion</span></Link>              
             </li>
