@@ -31,7 +31,12 @@ const Navbar = ({home}) => {
         </li>
         <li>
         
-          <a href="#about"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>About</span></a>
+          {
+            home ?
+              <a href="#about"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>About</span></a>
+              :
+              <Link to="/#about"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>About</span></Link>
+          }
         </li>
         <li>
           <span className='transition-all duration-300 flex flex-col items-center group'> 
