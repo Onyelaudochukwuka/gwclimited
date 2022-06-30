@@ -1,6 +1,6 @@
 import React from 'react';
 import '../components/Hero.css';
-import { Link } from 'react-router-dom'
+
 const data = [
     {
         
@@ -27,39 +27,6 @@ const data = [
         content: "Our counsellors are trained to give you expert advice on the visa process. They will guide you on preparing your file and check your documents before they are submitted."
     }
 ];
-const Countries = [
-     {
-         id:1,
-         img: require("./img/uk.jpg"),
-         title: "The United Kingdom"
-     },  
-    {
-        id:2,
-        img: require("./img/germany.jpeg"),
-        title: "Germany"
-    },
-    {
-        id:3,
-        img: require("./img/cyprus.jpeg"),
-        title: "Cyprus"
-    },
-     {
-         id:4,
-         img: require("./img/russia.jpg"),
-         title: "Russia"
-     },
-    {
-        id:5,
-        img: require("./img/poland.jpg"),
-        title: "Poland"
-    }, 
-       {
-        id:6,
-        img: require("./img/ireland.jpg"),
-        title: "Ireland"
-    } 
-       
-]
 const About = () => {
   return (
     <div className='p-10 bg-[#e2e2e2] w-full' id="about">
@@ -109,22 +76,7 @@ const About = () => {
         <p className="pt-4">As an international student you will need to make sure you successfully apply for a visa before you move abroad to study. Each study destination will have its own requirements and each visa will carry its own rules and restrictions.</p>
         <p className="pt-4">GWC has expert staff in all of our offices to guide you through the whole process, whether you choose to study in the UK, US or the UAE or elsewhere. The process can be complicated and universities often encourage international students to seek professional guidance before and during the visa application stage.</p>
     </div>
-        <div className="w-full pt-10">
-            <div>
-                <h2 className='text-center text-[#252F46] font-bold text-xl lg:text-2xl '>Our Countries</h2>
-            </div>
-            <div className='py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-12'id="country">
-                  {Countries.map((country) => {
-                      const { img, title } = country;
-                      return (
-                          <div key={title} data-aos="flip-left" className='w-60 h-40 bg-[#252F46] rounded-lg card2 m-auto'>
-                              <Link to={`/country/${title}`}><img className='w-60 h-28 rounded-t-lg' src={img} alt="" />
-                                  <h2 className='p-2 text-white text-center font-bold'>{title}</h2>
-                              </Link>
-                          </div>
-                      )})};
-            </div>
-        </div>
+       
 
     </div>
   )

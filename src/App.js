@@ -2,7 +2,7 @@ import './styles/index.css';
 import { useEffect } from 'react';
 import { Footer, Navbar } from './components';
 import {Routes, Route} from 'react-router-dom/index';
-import { Homepage, Country, Contact, Services, News, StudyPromo, Multimedia} from './pages'
+import { Homepage, Country, Contact, Services, News, StudyPromo, Multimedia, StudyAbroad} from './pages'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -27,6 +27,7 @@ function App() {
    <Route path='/News' element={<News />} />
    <Route path='/StudyPromo' element={<StudyPromo />} />
    <Route path='/Multimedia' element={<Multimedia />} />
+   <Route path='/StudyAbroad' element={<StudyAbroad />} />
   </Routes>
       <Footer/>
       </>
