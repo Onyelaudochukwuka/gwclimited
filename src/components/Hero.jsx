@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
    return(
      <div className="flex flex-col  w-full justify-between lg:flex-row items-center bg-[url('./img/pic2.jpeg')] bg-[#252F46]/75  bg-no-repeat bg-blend-soft-light bg-cover bg-center h-screen">
        <div className=' text-white  p-20  pb-10 hero-content w-full text-center'>
-         <h2 className='text-5xl font-bold w-full block left'>Study Abroad Simplified!</h2>
+         <h2 className='text-5xl font-bold w-full block left'>Innovative Creative Reliable</h2>
          <p className='py-6 text-lg font-medium w-full block right'>There is a world out there full of possibilities.
          Our mission is to help you accomplish your dreams.</p>
          <Link to="/StudyAbroad">
