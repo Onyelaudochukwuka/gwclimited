@@ -13,7 +13,7 @@ const Navbar = ({home}) => {
 
 
   return (
-    <div className='nav align-middle z-10'>
+    <div className='nav align-middle z-10 fixed lg:relative top-0 left-0 right-0'>
           <Link to="/">
           <span className='flex flex-col font-bold text-2xl leading-6 uppercase text-center pl-8 cursor-pointer'>
               Global 
