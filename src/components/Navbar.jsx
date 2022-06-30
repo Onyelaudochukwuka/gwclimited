@@ -70,16 +70,16 @@ const Navbar = ({home}) => {
           </span>
         </li>
         <li>
-          <Link to="/Consultancy"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>Consultancy</span></Link>
+          <Link to="/"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>Consultancy</span></Link>
         </li>
         <li>
-          <Link to="/Team"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>Team</span></Link>
+          <Link to="/"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>Team</span></Link>
         </li>
         <li>
           <Link to="/contact"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>Contact</span></Link>
         </li>
         <li>
-          <Link to="/Faq"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>FAQ</span></Link>
+          <Link to="/"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>FAQ</span></Link>
         </li>
       </ul>
       {/* toggler */}
