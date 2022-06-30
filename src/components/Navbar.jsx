@@ -55,7 +55,7 @@ const Navbar = ({home}) => {
             </li>
             <li className='w-full h-2 bg-slate-300/30'></li>
             <li>
-                <Link to="/"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>Consultancy</span></Link>              
+                <Link to="/Consult"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>Consultancy</span></Link>              
             </li>
           </ul>
           </span>
