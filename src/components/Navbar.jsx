@@ -42,7 +42,7 @@ const Navbar = ({home}) => {
               </li>
               <li className='w-full h-2 bg-slate-300/30'></li>
               <li>
-                <Link to="/services"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>Multimedia Services</span></Link>              
+                <Link to="/Multimedia"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>Multimedia Services</span></Link>              
             </li>
           </ul>
           </span>
@@ -56,7 +56,7 @@ const Navbar = ({home}) => {
               </li>
               <li className='w-full h-2 bg-slate-300/30'></li>
               <li>
-                <Link to="/"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>Study Abroad Promotion</span></Link>              
+                <Link to="/StudyPromo"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>Study Abroad Promotion</span></Link>              
             </li>
             <li className='w-full h-2 bg-slate-300/30'></li>
             <li>
