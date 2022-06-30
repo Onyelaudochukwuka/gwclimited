@@ -1,41 +1,16 @@
 import React from 'react';
 import '../components/Hero.css';
+import colstu from './img/colstu.jpg';
+import travel from './img/travel.jpg';
+import media from './img/media.jpg';
+import consult2 from './img/consultancy.jpg'
 
-const data = [
-    {
-        
-        no: '1',
-        title: "Appointment",
-        content: "Meeting with an experienced GWC counsellor will allow you to discuss your options and choose the right fit for you."
-    },
-    {
-        
-        no: '2',
-        title: "Application",
-        content: "Once you have decided on your university choice, your counsellor will ask you to provide the necessary documents to apply for admissions."
-    },
-    {
-        
-        no: '3',
-        title: "Acceptance",
-        content: "An offer letter will be issued by the university if you have met the criteria for admissions. GWC will keep in regular contact with you and with your institution of choice."
-    },
-    {
-        
-        no: '4',
-        title: "Visa Application",
-        content: "Our counsellors are trained to give you expert advice on the visa process. They will guide you on preparing your file and check your documents before they are submitted."
-    }
-];
 const About = () => {
   return (
     <div className='p-10 bg-[#e2e2e2] w-full' id="about">
         <div className='w-full flex flex-col p-6 gap-8'>
 
-            <span className="flex flex-col gap-2 items-center">
-                <h2 className="text-center font-bold text-2xl lg:text-3xl uppercase">About Us</h2>
-                <div className="w-40 h-2 bg-black rounded-full lg:w-44" data-aos="fade-up"></div>
-            </span>
+            
             <div className='lg:text-lg  text-base'>
                 <h2 className="font-semibold"><i>WHO WE ARE</i></h2>
                 <p className="pt-4 ">Global-watch catalogue ltd (GWC) was established in 2012. We have offices in Lagos, Abuja and port Harcourt, our company has over 10 years experience in providing quality services to our clients where ever they are in the world.</p>
@@ -53,31 +28,46 @@ const About = () => {
                 <p className="pt-4 ">We are creative, innovative, reliable and trusted partner. Our company has been in the industry for more than a decade, this gives us the needed experience to handle complex projects and assignments.</p>
             </div>
         </div>
-        <div className=' p-10 pb-20 rounded-lg'>
-            <h2 className='text-center text-[#252F46] font-bold text-xl lg:text-2xl mb-4'>Our Four Step Process</h2>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
-        { data.map(item => {
-  const { no,title,content} = item;
-  return (
-    <div key={item.no} className="w-full px-8 my-4 py-8 rounded-xl text-center  card1">
-        <span className='bg-[#e2e2e2] w-10 h-8 rounded-full block m-auto pt-1 mb-4 font-bold'>{no}</span>
-        <h2 className=' font-bold pb-2 text-white'>{title}</h2>
-        <p className='text-white '>{content}</p>
-    </div>
-  )   
-}
-    )}
-   
+        <div className='bg-[#C2956D] w-full h-40 text-center text-white '>
+            <h2 className='py-6 font-bold text-xl px-6 lg:text-2xl'>WE KNOW IT ALL</h2>
+            <p className='text-sm lg:text-xl px-6'>WE ARE INNOVATIVE, CREATIVE AND REALIABLE.</p>
         </div>
-        </div>
-        <div className="px-6 lg:text-lg  text-base">
-        <p>Now your visa's filed you will need to start making preparations for living abroad, including booking accommodation. GWC staff can assist you throughout and will hold pre-departure briefings for students.</p>
-            
-        <p className="pt-4">As an international student you will need to make sure you successfully apply for a visa before you move abroad to study. Each study destination will have its own requirements and each visa will carry its own rules and restrictions.</p>
-        <p className="pt-4">GWC has expert staff in all of our offices to guide you through the whole process, whether you choose to study in the UK, US or the UAE or elsewhere. The process can be complicated and universities often encourage international students to seek professional guidance before and during the visa application stage.</p>
-    </div>
-       
+        <div className='flex flex-col pt-10 lg:flex-row lg:items-baseline gap-6'>
+            <div className='px-8'>
+                <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl' >Study Abroad</h2>
+                <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate mb-8"></div>
+                <img src={colstu} alt="" className='h-auto w-[40%] m-auto' />
+                <p className='text-xs lg:text-xl pt-6 leading-normal'>We advise, counsel, process and recruit students to study in top universities and colleges in  America, Europe, Asia and Australia.</p>
+                <p className='text-xs lg:text-xl pt-2 leading-normal'>We also ensure the students meet the right documents for admission and visa processing.</p>
+            </div>
+            <div className=' px-8'>
+                <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl' >Immigration Services</h2>
+                <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate mb-8"></div>
+                <img src={travel} alt="" className='h-auto w-[40%] m-auto'/>
+                <p className='text-xs lg:text-xl pt-6  leading-normal'>GWC is dependable when it comes to visa processing of all types, we specializes in all categories of visas for our clients. </p>
+                <p className='text-xs lg:text-xl pt-2 leading-normal'>our team of experts provides exceptional and reliable advise 24/7 </p>
+            </div>
 
+        </div>
+        
+        <div className='flex flex-col pt-10 lg:flex-row lg:items-baseline gap-6 pb-20'>
+            <div className='px-8 flex-1'>
+                <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl' >Multimedia</h2>
+                <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate mb-8"></div>
+                <img src={media} alt="" className='h-auto w-[40%] m-auto' />
+                <p className='text-xs lg:text-xl pt-6 leading-normal'>In a world of evolving digital and creative content, GWC ensures that our designs and products in the multi-media department of are company are competitive, innovative and captivating to our audiences. </p>
+                
+            </div>
+            <div className=' px-8 flex-1'>
+                <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl' >Consultancy</h2>
+                <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate mb-8"></div>
+                <img src={consult2} alt="" className='h-auto w-[40%] m-auto'/>
+                <p className='text-xs lg:text-xl pt-6  leading-normal'>Our consultancy department is knowledge driven, we help businesses startup, meetup, develop and identify talents, internationalized products and services, train and develop content, forge strong cross boarder partnerships. </p>
+ 
+            </div>
+
+        </div>
+       
     </div>
   )
 }
