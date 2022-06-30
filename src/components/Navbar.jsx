@@ -32,7 +32,7 @@ const Navbar = ({home}) => {
        
         <li>
           <span className='transition-all duration-300 flex flex-col items-center group'> 
-            <Link to="/services"><span className='cursor-pointer hover:text-slate-300 z-30'><div onClick={() => setDropdown(false)}>Services</div></span></Link>
+           <span className='cursor-pointer hover:text-slate-300 z-30'><div onClick={() => setDropdown(false)}>Services</div></span>
           <ul className='group-hover:h-fit flex flex-col lg:top-16 bg-slate-600 lg:absolute gap-4 h-0 overflow-y-hidden group-hover:py-3  transition-all ease-in duration-300 z-10'>
             <li>
                 <Link to="/services"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>Immigration Services</span></Link>
@@ -54,7 +54,7 @@ const Navbar = ({home}) => {
         </li>
         <li>
           <span className='transition-all duration-300 flex flex-col items-center group'> 
-            <Link to="/services"><span className='cursor-pointer hover:text-slate-300 z-30'><div onClick={() => setDropdown(false)}>Media & News</div></span></Link>
+            <span className='cursor-pointer hover:text-slate-300 z-30'><div onClick={() => setDropdown(false)}>Media & News</div></span>
           <ul className='group-hover:h-fit flex flex-col lg:top-16 bg-slate-600 lg:absolute gap-4 h-0 overflow-y-hidden group-hover:py-3  transition-all ease-in duration-300 z-10'>
             <li>
                 <Link to="/News"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>News</span></Link>
