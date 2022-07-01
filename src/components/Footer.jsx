@@ -13,15 +13,18 @@ const Footer = () => {
             <span className='text-xs text-[#C2956D]'>
               Catalogue
             </span>
-          </span>              
-          <p className='text-center p-10'>
-              Making the process of studying abroad easy and smooth.
+          </span>       
+          <h2 className='text-center text-xl lg:text-2xl font-semibold pt-10 px-10'>Questions?</h2>       
+          <p className='text-center py-4 px-10'>
+          Contact  
+          </p>
+          <p className='text-center '>
+          PHONE: +234-9135436633  
+          </p>
+          <p className='text-center  py-4 px-10 '>
+          EMAIL: globalwatchcatalogue@gmail  
           </p>
           </div>
-        <div className='flex flex-col gap-8  lg:flex-row'>
-        <span  className="hover:text-slate-300"> <Link to="/contact"> Contact Us</Link></span>
-            <span className="hover:text-slate-300">Terms of Service</span>
-      </div>
     
         <div className='flex pt-4 gap-6 w-fit items-center'>
             <span className="w-fit"><a href="https://www.facebook.com/profile.php?id=100080625476250"  target="_blank" rel="noopener noreferrer"><svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

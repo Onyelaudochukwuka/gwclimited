@@ -28,7 +28,7 @@ const About = () => {
                 <p className="pt-4 ">We are creative, innovative, reliable and trusted partner. Our company has been in the industry for more than a decade, this gives us the needed experience to handle complex projects and assignments.</p>
             </div>
         </div>
-        <div className='bg-[#C2956D] w-full h-40 text-center text-white '>
+        <div className='bg-[#252F46] w-full h-40 text-center text-white '>
             <h2 className='py-6 font-bold text-xl px-6 lg:text-2xl'>WE KNOW IT ALL</h2>
             <p className='text-sm lg:text-xl px-6'>WE ARE INNOVATIVE, CREATIVE AND REALIABLE.</p>
         </div>
