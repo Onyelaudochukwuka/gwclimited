@@ -13,7 +13,7 @@ const Navbar = ({home}) => {
 
 
   return (
-    <div className='nav align-middle z-10'>
+    <div className='nav align-middle z-10 h-full sticky top-0'>
           <Link to="/">
           <span className='flex flex-col font-bold text-2xl leading-6 uppercase text-center pl-8 cursor-pointer'>
               Global 
@@ -25,14 +25,14 @@ const Navbar = ({home}) => {
             </span>
           </span>      
             </Link>
-      <ul className={`${!dropdown ? `h-0` : `h-full bg-slate-800 top-60 py-20`} lg:h-auto flex lg:flex-row flex-col my-auto align-middle overflow-y-hidden lg:overflow-y-visible transition-all ease-in duration-1000 gap-12 ml-auto mr-auto lg:relative lg:top-0 absolute w-full inset-0 lg:inset-auto items-center lg:py-0 lg:bg-transparent lg:ml-auto lg:float-right lg:w-fit`}>
+      <ul className={`${!dropdown ? `h-0` : `h-full bg-slate-800 top-56  py-20`} lg:h-auto flex lg:flex-row flex-col my-auto align-middle overflow-y-hidden lg:overflow-y-visible transition-all ease-in duration-1000 gap-12 ml-auto mr-auto lg:relative lg:top-0 w-full inset-0 lg:inset-auto items-center lg:py-0 lg:bg-transparent lg:ml-auto lg:float-right lg:w-fit fixed`}>
         <li>
           <Link to="/"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={()=>setDropdown(false)}>Home</span></Link>
         </li>
        
         <li>
           <span className='transition-all duration-300 flex flex-col items-center group'> 
-           <span className='cursor-pointer hover:text-slate-300 z-30'><div onClick={() => setDropdown(false)}>Services</div></span>
+           <span className='cursor-pointer hover:text-slate-300 z-30'><div>Services</div></span>
           <ul className='group-hover:h-fit flex flex-col lg:top-16 bg-slate-600 lg:absolute gap-4 h-0 overflow-y-hidden group-hover:py-3  transition-all ease-in duration-300 z-10'>
             <li>
                 <Link to="/services"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>Immigration Services</span></Link>
@@ -54,7 +54,7 @@ const Navbar = ({home}) => {
         </li>
         <li>
           <span className='transition-all duration-300 flex flex-col items-center group'> 
-            <span className='cursor-pointer hover:text-slate-300 z-30'><div onClick={() => setDropdown(false)}>Media & News</div></span>
+            <span className='cursor-pointer hover:text-slate-300 z-30'><div>Media & News</div></span>
           <ul className='group-hover:h-fit flex flex-col lg:top-16 bg-slate-600 lg:absolute gap-4 h-0 overflow-y-hidden group-hover:py-3  transition-all ease-in duration-300 z-10'>
             <li>
                 <Link to="/News"><span className='hover:text-slate-300/30 text-sm  p-3' onClick={() => setDropdown(false)}>News</span></Link>
