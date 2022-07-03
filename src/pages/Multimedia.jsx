@@ -143,7 +143,7 @@ Since opening our doors 2012, GWC has grown into a full-service</p>
         <p className='text-xs lg:text-lg pt-2 leading-normal'>Advertisements. SEO stands for<b> Search Engine Optimization.</b> It is the process of getting traffic from the free, organic, editorial, or natural search results on the search engines. Simply put, it's the name given to the activity that attempts to improve search engine rankings </p>
     </div>
 
-    <div className='lg:px-14 mx-10 pt-6 pb-14'>
+    <div className='lg:px-14 mx-10 pt-6 pb-20'>
         <span className="flex flex-col gap-2 ">
           <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl' data-aos="fade-left" ><i>WHAT WE CAN DO FOR YOU </i></h2>
         </span>
