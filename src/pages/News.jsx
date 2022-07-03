@@ -5,7 +5,7 @@ const News = () => {
     <div className='p-10 rounded-lg lg:mx-10 h-auto' >
        <div className='py-8 lg:px-8'>
         <span className="flex flex-col gap-2 ">
-          <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl'>Multi-Media </h2>
+          <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl' data-aos="fade-left">Multi-Media </h2>
         <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate"></div>
         </span>
         <p className='text-xs lg:text-xl py-8 leading-normal'>
@@ -16,7 +16,7 @@ const News = () => {
         </div>
         <div className='py-8 lg:px-8'>
         <span className="flex flex-col gap-2 ">
-          <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl'>Study Abroad</h2>
+          <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl' data-aos="fade-left">Study Abroad</h2>
         <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate"></div>
         </span>
         <p className='text-xs lg:text-xl py-8 leading-normal'>
