@@ -6,11 +6,8 @@ const Services = () => {
 
   return (
     <div className='p-10 rounded-lg lg:mx-10 h-auto mb-20' id='services'>
-       <span className="flex flex-col gap-2 items-center">
-                <h2 className="text-center font-bold text-2xl lg:text-3xl uppercase">services</h2>
-                <div className="w-40 h-2 bg-black rounded-full lg:w-44" data-aos="fade-up"></div>
-            </span>
-      <div className='py-8 lg:px-8'>
+      
+      <div className='py-4 lg:px-8'>
         <span className="flex flex-col gap-2 ">
           <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl' id='immigrationService'>Immigration Services</h2>
         <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate"></div>
