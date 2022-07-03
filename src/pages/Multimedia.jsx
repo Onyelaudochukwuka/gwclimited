@@ -79,8 +79,8 @@ Since opening our doors 2012, GWC has grown into a full-service</p>
         </ul>
         <p className='text-xs lg:text-xl '> we have been meeting the needs of every individual and organization we serve while growing as a strong, creative and strategic partner.</p>
     </div>
-    <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl px-6' data-aos="fade-left" ><i>We Provide Training and Services In:</i></h2>
-         <div className=' pb-10 grid grid-cols-1 px-10 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:px-10'>
+    <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl px-16 pb-6' data-aos="fade-left" ><i>We Provide Training and Services In:</i></h2>
+         <div className=' pb-10 grid grid-cols-1 px-10 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:px-16'>
     {media.map((mediaItem,i) => (
        <div key={i} className='w-full rounded-lg bg-black text-white my-4' data-aos={`zoom-${i % 2 === 0 ?  `out` : `in` }`}>
         <img src={mediaItem.img} alt="" className='rounded-t-lg w-full h-60' />
@@ -143,7 +143,7 @@ Since opening our doors 2012, GWC has grown into a full-service</p>
         <p className='text-xs lg:text-lg pt-2 leading-normal'>Advertisements. SEO stands for<b> Search Engine Optimization.</b> It is the process of getting traffic from the free, organic, editorial, or natural search results on the search engines. Simply put, it's the name given to the activity that attempts to improve search engine rankings </p>
     </div>
 
-    <div className='lg:px-14 mx-10 pt-6 text-center pb-14'>
+    <div className='lg:px-14 mx-10 pt-6 pb-14'>
         <span className="flex flex-col gap-2 ">
           <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl' data-aos="fade-left" ><i>WHAT WE CAN DO FOR YOU </i></h2>
         </span>
