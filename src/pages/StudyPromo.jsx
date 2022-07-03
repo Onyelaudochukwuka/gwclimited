@@ -57,10 +57,27 @@ hotel reservation ,travel documentation and authentication of results. </li>
         <ul className='text-xs lg:text-xl py-8 flex flex-col gap-4 leading-normal list-disc'>
             <li>Monday-Friday </li>
              <li>9am-5pm </li>            
-        </ul>
-        
+        </ul>    
+
+        <span className="flex flex-col gap-2 ">
+          <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl'>Abuja Office</h2>
+        <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate"></div>
+        </span>
+        <p className="pt-4 text-xs lg:text-lg  leading-normal">SF 23 ANAFARA PLAZA OPPOSITE OANDO FILLING STATION/POLO CLUB </p>
+        <p className='text-xs lg:text-lg pt-2 leading-normal'>FIRST AVENUE GWARINPA ABUJA</p>
+        <p className='text-xs lg:text-lg pt-2 leading-normal'>PHONE: 09135436633. 09068259997</p>
+        <p className='text-xs lg:text-lg pt-2 leading-normal'>Email: globalwatchcatalogue@gmail.com</p>
+
+        <span className="flex flex-col gap-2 pt-8 ">
+          <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl'>Lagos Office</h2>
+        <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate"></div>
+        </span>
+        <p className="pt-4 text-xs lg:text-lg  leading-normal">No 54B (Agos building) Adeniyi Jones Avenue, Ikeja Lagos</p>
+        <p className='text-xs lg:text-lg pt-2 leading-normal'>PHONE:09135436633. 09166640754</p>
+        <p className='text-xs lg:text-lg pt-2 leading-normal'>Email: globalwatchcatalogue@gmail.com</p>
             
         </div>
+
         </div>
   )
 }
